@@ -46,7 +46,7 @@ namespace DistanceAreaCalc {
 
 		public static double rad2deg(double angle)
 		{
-			return Math.PI * angle / 180.0;
+			return  180.0 / Math.PI * angle;
 		}
 
 		/**
